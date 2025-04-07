@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   authenticated-rpc-mavryk-chain:
   - apiVersion: v2
-    created: "2025-04-07T12:01:59.449547536Z"
+    created: "2025-04-07T14:41:50.57200628Z"
     description: A Helm chart for Mavryk RPC authentication for a private chain
-    digest: 2e4839158bbaca20f9331dfda4179371c35744bda579f1185a51c9d511323abc
+    digest: 64c615ca5881ef0d40b38bfff1f254cf75b0a9ef00df13a831e4ffdae3a2caaf
     home: https://github.com/mavryk-network/mavryk-k8s
     keywords:
     - mavryk
@@ -393,9 +393,9 @@ entries:
     version: 6.25.0
   maven-finance-oracle:
   - apiVersion: v2
-    created: "2025-04-07T12:01:59.449982429Z"
+    created: "2025-04-07T14:41:50.572451364Z"
     description: A Helm chart for Maven Finance oracles on Kubernetes
-    digest: 500b338cd5233c9f342a27378556ec2f0a919d8ca986387d279e9caec890a587
+    digest: 08e653dc357c2194856d8e4e85fdc207945ac4456426ab38aecfa3984be4a33f
     home: https://github.com/mavryk-network/mavryk-k8s
     keywords:
     - mavryk
@@ -634,9 +634,9 @@ entries:
     version: 6.26.0
   mavryk-bridge-signer:
   - apiVersion: v2
-    created: "2025-04-07T12:01:59.450271189Z"
+    created: "2025-04-07T14:41:50.572733342Z"
     description: A Helm chart for Mavryk Bridge Signer on Kubernetes
-    digest: 21e7ec00f3e720cc8a85238479bd93b9e45a537187f00490684f85c183a54edd
+    digest: 7e386d9bd4ba852b18679b91c083e5173c8d4a232f762a5c287865bec900d82d
     home: https://github.com/mavryk-network/mavryk-k8s
     keywords:
     - mavryk
@@ -725,9 +725,9 @@ entries:
     version: 6.28.0
   mavryk-chain:
   - apiVersion: v2
-    created: "2025-04-07T12:01:59.451512159Z"
+    created: "2025-04-07T14:41:50.57399194Z"
     description: A Helm chart for Mavryk nodes on Kubernetes
-    digest: 8819530986ce03c8cd563093a6d29911212c011b050b708642fe0639a67b0569
+    digest: 36c55718a2c173eedd97662000020a60483aea9d3bb85082a4f52eeccd6aba52
     home: https://github.com/mavryk-network/mavryk-k8s
     keywords:
     - mavryk
@@ -1116,9 +1116,9 @@ entries:
     version: 6.25.0
   mavryk-dipdup-indexer:
   - apiVersion: v2
-    created: "2025-04-07T12:01:59.452085871Z"
+    created: "2025-04-07T14:41:50.574545266Z"
     description: A Helm chart for Mavryk Dipdup Indexer on Kubernetes
-    digest: dd5be47e337ef7318bc2d0b576eb8e4c6121e29848c8909ae2a090efd2167288
+    digest: 73abc9eee03b0e6aa2439871b6dae717f3c07aab1082b38753e7f57ce02158fc
     home: https://github.com/mavryk-network/mavryk-k8s
     keywords:
     - mavryk
@@ -1328,9 +1328,9 @@ entries:
   mavryk-faucet:
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2025-04-07T12:01:59.452501067Z"
+    created: "2025-04-07T14:41:50.574978748Z"
     description: Faucet for mavryk
-    digest: 697d53d9fb651c64f875f8e7d6126701e99fcb979e51340af2cd00eb27b34daa
+    digest: bb142a8b3070c47cd83d5af132e04d91bf7dc6e11a4011671bf1c8c6d3e8cf51
     name: mavryk-faucet
     type: application
     urls:
@@ -1629,9 +1629,9 @@ entries:
   mavryk-proto-cruncher:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-07T12:01:59.452788224Z"
+    created: "2025-04-07T14:41:50.575260326Z"
     description: A Helm chart for Kubernetes
-    digest: a4107ecb3b9595c5e5d089ddda6570fa69d571258eafd843285dd8798dfdbbb5
+    digest: 3431c8ccaddaffc105e3b10aa999ffe0610f7320700f42cad79b4a0f0d8d0229
     name: mavryk-proto-cruncher
     type: application
     urls:
@@ -1930,9 +1930,9 @@ entries:
   mavryk-reward-distributor:
   - apiVersion: v2
     appVersion: "10.0"
-    created: "2025-04-07T12:01:59.453130264Z"
+    created: "2025-04-07T14:41:50.57560434Z"
     description: A chart for mavryk-reward-distributor
-    digest: 400508f08bf80aa4fe75a0da7ae883db76c9a5cda1e82b092de82bea51494cdb
+    digest: 8b4d9920f5de6d4696b3eaeb61ec89e377acafd3bf1e9f278a8399cadd26a017
     name: mavryk-reward-distributor
     type: application
     urls:
@@ -2231,9 +2231,9 @@ entries:
   mavryk-signer-forwarder:
   - apiVersion: v2
     appVersion: "10.0"
-    created: "2025-04-07T12:01:59.453550109Z"
+    created: "2025-04-07T14:41:50.57649069Z"
     description: A chart for mavryk-signer-forwarder
-    digest: 58a19f387805212803e97510ab886bf3cebf37c0b69d7549c3225a9434d30904
+    digest: 12047b69da31317a492ca9029b7ba1b507db8b9432c932767a415cb59ebdeaa1
     name: mavryk-signer-forwarder
     type: application
     urls:
@@ -2532,9 +2532,9 @@ entries:
   pyrometer:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-04-07T12:01:59.453866851Z"
+    created: "2025-04-07T14:41:50.577276444Z"
     description: Deploys pyrometer Mavryk monitoring solution
-    digest: f65e6d4cdb962ff805d215d4510d44c79860a325078084a92f4cc66eeaaf2188
+    digest: 96a9ea0973fe6e970a5bf64e0f0837cf033ca6195192db492d6fdac5e6f1bdd7
     name: pyrometer
     type: application
     urls:
@@ -2832,10 +2832,10 @@ entries:
     version: 6.25.0
   snapshotEngine:
   - apiVersion: v2
-    created: "2025-04-07T12:01:59.454513009Z"
+    created: "2025-04-07T14:41:50.577732278Z"
     description: Produces filesystem artifacts (tarballs and snapshots) that Mavryk
       Nodes can use to sync quickly.
-    digest: 2555d1f481d157f2e352970248b20a9b1bc37bc11a25c38e2522fbae57c52f28
+    digest: 36ef148a77c73448df3a7265a3cb6dc5eadd19e625963d5ff50502c9952adaab
     name: snapshotEngine
     type: application
     urls:
@@ -3131,4 +3131,4 @@ entries:
     urls:
     - https://mavryk-network.github.io/mavryk-helm-charts/snapshotEngine-6.25.0.tgz
     version: 6.25.0
-generated: "2025-04-07T12:01:59.448710803Z"
+generated: "2025-04-07T14:41:50.57160549Z"
