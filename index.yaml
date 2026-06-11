@@ -2,6 +2,19 @@ apiVersion: v1
 entries:
   authenticated-rpc-mavryk-chain:
   - apiVersion: v2
+    created: "2026-06-11T04:11:06.26314632Z"
+    description: A Helm chart for Mavryk RPC authentication for a private chain
+    digest: ab3dc029318fe828981764ecdf23b9aa28dc8959e099e6abf2a1aeddf65fae6c
+    home: https://github.com/mavryk-network/mavryk-k8s
+    keywords:
+    - mavryk
+    - blockchain
+    name: authenticated-rpc-mavryk-chain
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/authenticated-rpc-mavryk-chain-6.33.0.tgz
+    version: 6.33.0
+  - apiVersion: v2
     created: "2026-06-10T06:36:44.271814986Z"
     description: A Helm chart for Mavryk RPC authentication for a private chain
     digest: 7ccd1e5a63c9a58d102959a990ea3e1794b82f603dca989bd999ea5e57c036e6
@@ -601,6 +614,21 @@ entries:
     version: 6.25.0
   maven-finance-oracle:
   - apiVersion: v2
+    created: "2026-06-11T04:11:06.26374709Z"
+    description: A Helm chart for Maven Finance oracles on Kubernetes
+    digest: ac073b7553616e3d73a81b487bd3230e26acfe8c8b4c04bc515989b3418448d6
+    home: https://github.com/mavryk-network/mavryk-k8s
+    keywords:
+    - mavryk
+    - maven finance
+    - defi
+    - blockchain
+    name: maven-finance-oracle
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/maven-finance-oracle-6.33.0.tgz
+    version: 6.33.0
+  - apiVersion: v2
     created: "2026-06-10T06:36:44.272565571Z"
     description: A Helm chart for Maven Finance oracles on Kubernetes
     digest: e9561beacf2c94c4aeb39d622b399fa3b27c99a5890ca8a74c6ecb07905e82ba
@@ -1083,6 +1111,17 @@ entries:
   mavpay:
   - apiVersion: v2
     appVersion: 0.24.4
+    created: "2026-06-11T04:11:06.264544759Z"
+    description: A chart for MavPay, a payout tool for Mavryk bakers/validators (a
+      fork of tezpay)
+    digest: a4698ca0b1982c45e91a071758280664da10b927468f888021a5c3c22b636ab3
+    name: mavpay
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/mavpay-6.33.0.tgz
+    version: 6.33.0
+  - apiVersion: v2
+    appVersion: 0.24.4
     created: "2026-06-10T06:36:44.27292394Z"
     description: A chart for MavPay, a payout tool for Mavryk bakers/validators (a
       fork of tezpay)
@@ -1104,6 +1143,21 @@ entries:
     - https://mavryk-network.github.io/mavryk-helm-charts/mavpay-6.31.0.tgz
     version: 6.31.0
   mavryk-bridge-signer:
+  - apiVersion: v2
+    created: "2026-06-11T04:11:06.26495314Z"
+    description: A Helm chart for Mavryk Bridge Signer on Kubernetes
+    digest: 703a1b61a9c959db8adf87eb5532f8e0a079ed8acf7bc78cf19f9277155642e9
+    home: https://github.com/mavryk-network/mavryk-k8s
+    keywords:
+    - mavryk
+    - bridge
+    - signer
+    - blockchain
+    name: mavryk-bridge-signer
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/mavryk-bridge-signer-6.33.0.tgz
+    version: 6.33.0
   - apiVersion: v2
     created: "2026-06-10T06:36:44.273179306Z"
     description: A Helm chart for Mavryk Bridge Signer on Kubernetes
@@ -1435,6 +1489,19 @@ entries:
     - https://mavryk-network.github.io/mavryk-helm-charts/mavryk-bridge-signer-6.28.0.tgz
     version: 6.28.0
   mavryk-chain:
+  - apiVersion: v2
+    created: "2026-06-11T04:11:06.266420738Z"
+    description: A Helm chart for Mavryk nodes on Kubernetes
+    digest: 1ac5687fa8e275273c997074277e4f532ed1233f0c32ae3f869c2aefa1807a2e
+    home: https://github.com/mavryk-network/mavryk-k8s
+    keywords:
+    - mavryk
+    - blockchain
+    name: mavryk-chain
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/mavryk-chain-6.33.0.tgz
+    version: 6.33.0
   - apiVersion: v2
     created: "2026-06-10T06:36:44.274750019Z"
     description: A Helm chart for Mavryk nodes on Kubernetes
@@ -2035,6 +2102,21 @@ entries:
     version: 6.25.0
   mavryk-dipdup-indexer:
   - apiVersion: v2
+    created: "2026-06-11T04:11:06.267358787Z"
+    description: A Helm chart for Mavryk Dipdup Indexer on Kubernetes
+    digest: 5c2310c711e90689b0b9f2383a6d8b9e179d9278e0b88c2037e9c8036028daa3
+    home: https://github.com/mavryk-network/mavryk-k8s
+    keywords:
+    - mavryk
+    - indexer
+    - defi
+    - blockchain
+    name: mavryk-dipdup-indexer
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/mavryk-dipdup-indexer-6.33.0.tgz
+    version: 6.33.0
+  - apiVersion: v2
     created: "2026-06-10T06:36:44.275665267Z"
     description: A Helm chart for Mavryk Dipdup Indexer on Kubernetes
     digest: ea98a3cf1dd4927cd036f3d5fcd7aa95ac362b408c205db2a06855ffdd0bfba3
@@ -2485,6 +2567,16 @@ entries:
     - https://mavryk-network.github.io/mavryk-helm-charts/mavryk-dipdup-indexer-6.27.0.tgz
     version: 6.27.0
   mavryk-faucet:
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2026-06-11T04:11:06.267930674Z"
+    description: Faucet for mavryk
+    digest: 5c2ce2b49b963ac80c5209f93cf1a5d85a8f7472e80d758deaaa74ff8940ac82
+    name: mavryk-faucet
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/mavryk-faucet-6.33.0.tgz
+    version: 6.33.0
   - apiVersion: v2
     appVersion: 3.0.0
     created: "2026-06-10T06:36:44.27634703Z"
@@ -2948,6 +3040,16 @@ entries:
   mavryk-proto-cruncher:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2026-06-11T04:11:06.268209053Z"
+    description: A Helm chart for Kubernetes
+    digest: 24bfe67058783fe6a3d3b9925433147867d3a12726673d4eb661e2b0df4ddd5e
+    name: mavryk-proto-cruncher
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/mavryk-proto-cruncher-6.33.0.tgz
+    version: 6.33.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2026-06-10T06:36:44.276657831Z"
     description: A Helm chart for Kubernetes
     digest: adb5b36db3548cbfe2effe3d8147218b4a04879871d081a85bc60a8dfdd3dc28
@@ -3407,6 +3509,17 @@ entries:
     - https://mavryk-network.github.io/mavryk-helm-charts/mavryk-proto-cruncher-6.25.0.tgz
     version: 6.25.0
   mavryk-reward-distributor:
+  - apiVersion: v2
+    appVersion: master
+    created: "2026-06-11T04:11:06.268567081Z"
+    description: A chart for the Mavryk Reward Distributor (MRD), a payout tool for
+      Mavryk bakers/validators
+    digest: 6c0943d284e7a7c3336e7773ffa79a3a39d1b33609ed3601b89ab4ac9be23924
+    name: mavryk-reward-distributor
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/mavryk-reward-distributor-6.33.0.tgz
+    version: 6.33.0
   - apiVersion: v2
     appVersion: master
     created: "2026-06-10T06:36:44.277041066Z"
@@ -3872,6 +3985,16 @@ entries:
   mavryk-signer-forwarder:
   - apiVersion: v2
     appVersion: "10.0"
+    created: "2026-06-11T04:11:06.268954203Z"
+    description: A chart for mavryk-signer-forwarder
+    digest: 2666924e565a5263ff1f379f4981f01d39c4e4acb33193a7d07f8aef7383cbf9
+    name: mavryk-signer-forwarder
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/mavryk-signer-forwarder-6.33.0.tgz
+    version: 6.33.0
+  - apiVersion: v2
+    appVersion: "10.0"
     created: "2026-06-10T06:36:44.277407099Z"
     description: A chart for mavryk-signer-forwarder
     digest: c849386055bbf361932aaaa814d196a48583d7bf1d9c75096a0bfbc6515e5f88
@@ -4331,6 +4454,16 @@ entries:
     - https://mavryk-network.github.io/mavryk-helm-charts/mavryk-signer-forwarder-6.25.0.tgz
     version: 6.25.0
   pyrometer:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-06-11T04:11:06.269277256Z"
+    description: Deploys pyrometer Mavryk monitoring solution
+    digest: 2af4cc86829cabe62978c6d498f0ba3da649d0586fbc78971a96223d73801d71
+    name: pyrometer
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/pyrometer-6.33.0.tgz
+    version: 6.33.0
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2026-06-10T06:36:44.27774495Z"
@@ -4793,6 +4926,16 @@ entries:
     version: 6.25.0
   snapshotEngine:
   - apiVersion: v2
+    created: "2026-06-11T04:11:06.269839585Z"
+    description: Produces filesystem artifacts (tarballs and snapshots) that Mavryk
+      Nodes can use to sync quickly.
+    digest: 23991cfffc313b0f5dc0ddbc2d3696b14ce492261dd1374392b809fde7a4491a
+    name: snapshotEngine
+    type: application
+    urls:
+    - https://mavryk-network.github.io/mavryk-helm-charts/snapshotEngine-6.33.0.tgz
+    version: 6.33.0
+  - apiVersion: v2
     created: "2026-06-10T06:36:44.278151629Z"
     description: Produces filesystem artifacts (tarballs and snapshots) that Mavryk
       Nodes can use to sync quickly.
@@ -5252,4 +5395,4 @@ entries:
     urls:
     - https://mavryk-network.github.io/mavryk-helm-charts/snapshotEngine-6.25.0.tgz
     version: 6.25.0
-generated: "2026-06-10T06:36:44.27098684Z"
+generated: "2026-06-11T04:11:06.262772362Z"
